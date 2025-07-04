@@ -1,9 +1,11 @@
 /*----------------------------------------*/
 /*----- Basic typo -----*/
 /*----------------------------------------*/
-body { color: rgba(7,26,82,0.55); background-color: #fff; }
-h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: #071a52; }
-a { color: #4557e1; }
+body { color: #212121; background-color: #fff; }
+h1, h2, h3, h5, h6, h1 a, h2 a, h3 a, h4 a, h6 a { color: #ffffff }
+h4 {color: #1D4ED8;}
+h5 {color: #4C5259;}
+a { color: #1a53f0; }
 a:hover { color: #071a52; }
 /*----------------------------------------*/
 /*----- Backgrounds -----*/
@@ -12,7 +14,7 @@ a:hover { color: #071a52; }
 .bg-white { background-color: #fff !important; }
 .bg-grey { background-color: #ecedf1 !important; }
 .bg-blue { background-color: #4557e1 !important; }
-.bg-light-blue { background-color: #cefff1 !important; }
+.bg-light-blue { background-color: #4c5259 !important; }
 .bg-red { background-color: #ff5a5f !important; }
 .bg-dark { background-color: #071a52 !important; }
 /*----------------------------------------*/
@@ -34,7 +36,7 @@ a:hover { color: #071a52; }
 /*== blue ==*/
 .color-blue { color: #4557e1; }
 /*== red ==*/
-.color-red { color: #ff5a5f; }
+.color-red { color: #ffffff; }
 /*----------------------------------------*/
 /*----- Buttons -----*/
 /*----------------------------------------*/
@@ -61,11 +63,11 @@ box-shadow: 0px 5px 15px 5px rgba(146,195,255,1); }
 /* span inside button */
 .btn-light-blue span { background-color: #4557e1; color: #fff; }
 /*-- red --*/
-.btn-red { background-color: #ff5a5f; border-color: #ff5a5f; color: #fff; -webkit-box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); 
+.btn-red { background-color: #1a53f0; border-color: #ffffff; color: #fff; -webkit-box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); 
 box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); }
-.btn-flat-red { border-color: #ff5a5f; color: #ff5a5f; -webkit-box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); 
+.btn-flat-red { border-color: #4C5259; color: #ffffff; -webkit-box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); 
 box-shadow: 0px 5px 15px 5px rgba(255,90,95,0.15); }
-.dtr-btn.btn-red:hover, .dtr-btn-flat.btn-flat-red:hover { background-color: #ff5a5f; color: #fff; }
+.dtr-btn.btn-red:hover, .dtr-btn-flat.btn-flat-red:hover { background-color: #4C5259; color: #fff; }
 /*===== button hovers =====*/
 .dtr-btn-small, .dtr-btn-small span { box-shadow: none; }
 .dtr-btn:hover, .dtr-btn-flat:hover, #submit:hover, input[type="submit"]:hover { background-color: #071a52; color: #fff; }
@@ -77,7 +79,7 @@ select, textarea, input[type="text"], input[type="email"], input[type="url"], in
 select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"] { border-color: rgba(0,0,0,0.15); }
 textarea:focus, input[type="text"]:focus, input[type="email"]:focus, input[type="url"]:focus, input[type="password"]:focus, input[type="number"]:focus, input[type="tel"]:focus, input[type="search"]:focus { border-color: #4557e1 !important; }
 .wpcf7-validation-errors { background: #fff; }
-.style-dark .wpcf7-validation-errors, .style-dark-2 .wpcf7-validation-errors { color: #ff5a5f; }
+.style-dark .wpcf7-validation-errors, .style-dark-2 .wpcf7-validation-errors { color: #4C5259; }
 /* placeholder */
 ::-webkit-input-placeholder {
 color: rgba(7,26,82,0.25) !important;
@@ -113,7 +115,7 @@ font-size: 100%;
 .border-blue { border-color: #4557e1 !important; }
 .border-light-blue { border-color: #92c3ff !important; }
 .border-dark { border-color: #071a52 !important; }
-.border-red { border-color: #ff5a5f !important; }
+.border-red { border-color: #33AADF !important; }
 /*===== slick carousel =====*/
 .dtr-slick-slider .slick-prev:before, .dtr-slick-slider .slick-next:before { color: #ecedf1; }
 .dtr-slick-slider .slick-prev, .dtr-slick-slider .slick-next { background-color: #fff; border-color: #ecedf1; }
@@ -130,7 +132,7 @@ font-size: 100%;
 /*===== Header =====*/
 #dtr-header-global { background-color: #fff; }
 #dtr-header-global.trans-header { background-color: transparent; }
-#dtr-header-global.on-scroll { background-color: #fff; }
+#dtr-header-global.on-scroll { background-color: #071A52; }
 #dtr-header-global.on-scroll .on-scroll-color-dark { color: #071a52 !important; }
 /*===== page title section =====*/
 .dtr-page-title-wrapper { background-color: #cefff1; }
@@ -149,11 +151,11 @@ font-size: 100%;
 .dtr-menu-light .active { color: #4557e1; }
 .dtr-menu-light .nav-link:hover { color: #4557e1; }
 /* menu for light background */
-.dtr-menu-dark .nav-link { color: #071a52; }
+.dtr-menu-dark .nav-link { color: #ffffff; }
 .dtr-menu-dark .active { color: #4557e1; }
 .dtr-menu-dark .nav-link:hover { color: #4557e1; }
 /* dropdown link color */
-.sf-menu .sub-menu li a { color: #071a52; }
+.sf-menu .sub-menu li a { color: #ffffff; }
 .sf-menu .sub-menu li a:hover, .sf-menu .sub-menu li .active { background: #ecedf1; color: #4557e1; }
 .sf-menu .sub-menu { background-color: #fff; }
 .sf-menu .sub-menu a { border-bottom-color: rgba(0,0,0,0.10); }
@@ -179,13 +181,13 @@ font-size: 100%;
 .dtr-bordered-blockquote { border-color: rgba(7,26,82,0.2); }
 /*===== pricing =====*/
 .dtr-pricing { border-color: #fff; }
-.dtr-pricing-focused, .dtr-pricing:hover { border-color: #ff5a5f; }
+.dtr-pricing-focused, .dtr-pricing:hover { border-color: #33AADF; }
 /*===== process =====*/
 .dtr-process-number span { background-color: #fff; color: #071a52; border-color: #071a52; }
 .dtr-process-number::before, .dtr-process-number::after { background-color: #92c3ff; }
 /*===== styled tabs =====*/
 .dtr-styled-tab .nav-pills .nav-link { color: #071a52; background-color: transparent; }
-.dtr-styled-tab .nav-pills .nav-link.active, .dtr-styled-tab .nav-pills .show > .nav-link {  background-color: #92c3ff; color: #fff; }
+.dtr-styled-tab .nav-pills .nav-link.active, .dtr-styled-tab .nav-pills .show > .nav-link {  background-color: #33AADF; color: #fff; }
 /*===== testimonial =====*/
 .dtr-testimonial-icon::before { background-color: #fff; color: #4557e1; }
 .dtr-client-job { color: rgba(7,26,82,0.55); }

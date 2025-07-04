@@ -5,24 +5,39 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="format-detection" content="telephone=no" />
-    <title>Ainotion HTML Landing Template</title>
-    <meta name="author" content="tansh" />
-    <meta name="description" content="HTML Teamplate" />
-    <meta name="keywords" content="start up, business, one page" />
-
+    
+    <title>Eventos AMCI 2025 – Capacitación y Networking para Concreteros</title>
+    
+    <meta name="author" content="AMCI – Asociación Mexicana de Concreteros Independientes" />
+    <meta name="description" content="Explora los próximos eventos AMCI 2025: cursos técnicos, networking, desayunos y reuniones gremiales para concreteros independientes de todo México." />
+    <meta name="keywords" content="concreto, eventos para concreteros, cursos AMCI, capacitación en concreto, networking gremial, concreteros independientes, AMCI eventos 2025" />
+    
+    <!-- Opcional: Open Graph para compartir en redes -->
+    <meta property="og:title" content="Eventos AMCI 2025 – Capacitación y Networking para Concreteros" />
+    <meta property="og:description" content="Revisa los próximos eventos AMCI 2025 y regístrate. Cursos técnicos, desayunos, reuniones nacionales y más." />
+    <meta property="og:image" content="https://amciac.org/assets/eventos-og.jpg" /> <!-- Asegúrate de tener una imagen og -->
+    <meta property="og:url" content="https://amciac.org/agenda.html" />
+    <meta property="og:type" content="website" />
+    
+    <!-- Twitter Card (si aplica) -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Eventos AMCI 2025" />
+    <meta name="twitter:description" content="Capacitación y networking para concreteros en todo México." />
+    <meta name="twitter:image" content="https://amciac.org/assets/eventos-og.jpg" />
+    
     <!-- FAVICON FILES -->
     <link
-      href="assets/images/icons/apple-touch-icon-144-precomposed.png"
+      href="assets/images/icons/favicon.png"
       rel="apple-touch-icon"
       sizes="144x144"
     />
     <link
-      href="assets/images/icons/apple-touch-icon-120-precomposed.png"
+      href="assets/images/icons/favicon.png"
       rel="apple-touch-icon"
       sizes="120x120"
     />
     <link
-      href="assets/images/icons/apple-touch-icon-76-precomposed.png"
+      href="assets/images/icons/favicon.png"
       rel="apple-touch-icon"
       sizes="76x76"
     />
@@ -52,7 +67,7 @@
         <div class="container">
           <!-- small devices logo -->
           <a href="index.html"
-            ><img src="assets/images/logo-dark.png" alt="logo"
+            ><img src="assets/images/logoamci.png" alt="logo"
           /></a>
           <!-- small devices logo ends -->
 
@@ -77,12 +92,12 @@
             <div class="dtr-header-left">
               <!-- logo -->
               <a class="logo-default dtr-scroll-link" href="#home"
-                ><img src="assets/images/logo-dark.png" alt="logo" width="173"
+                ><img src="assets/images/logoamci.png" alt="logo" width="173"
               /></a>
 
               <!-- logo on scroll -->
               <a class="logo-alt dtr-scroll-link" href="#home"
-                ><img src="assets/images/logo-dark.png" alt="logo" width="173"
+                ><img src="assets/images/logoamci.png" alt="logo" width="173"
               /></a>
               <!-- logo on scroll ends -->
             </div>
@@ -96,7 +111,9 @@
                 >
                   <li><a class="nav-link" href="#home">Inicio</a></li>
                   <li><a class="nav-link" href="#features">Acerca de</a></li>
-                  <li><a class="nav-link" href="#features2">Eventos</a></li>
+                  <li><a class="nav-link" href="#events">Eventos</a></li>
+                  <li><a class="nav-link" href="https://amciac.org/">AMCI</a></li>
+
                 </ul>
               </div>
             </div>
@@ -122,7 +139,6 @@
         <section
           id="home"
           class="dtr-section dtr-hero-section-top-padding dtr-pb-100 parallax bg-light-blue"
-          style="background-image: url(assets/images/hero-bg.png)"
         >
           <div class="container">
             <!--== row starts ==-->
@@ -131,7 +147,18 @@
               <div class="col-12 col-md-6">
                 <!-- Heading -->
                 <h1>
-                  Los eventos que construyen <br />
+                  Los
+                  <span
+                    style="
+                      background-color: #4557e1;
+                      width: 100px;
+                      height: 50px;
+                      border-radius: 10px;
+                      padding: 0 10px;
+                    "
+                    >eventos</span
+                  >
+                  que construyen <br />
                   <span class="color-blue"
                     >el futuro del concreto en México</span
                   >
@@ -140,20 +167,20 @@
                 <!-- Text -->
                 <p>
                   Encuentros nacionales, talleres y desayunos diseñados para
-                  fortalecer a concreteros independientes, conectar con aliados
-                  estratégicos y compartir innovación real.
+                  fortalecer y conectar con aliados estratégicos y compartir
+                  innovación real.
                 </p>
 
                 <!-- button -->
-                <a href="#" class="dtr-btn dtr-btn-styled btn-red dtr-mt-10"
+                <a href="#events" class="dtr-btn dtr-btn-styled btn-red dtr-mt-10"
                   >Consulta la agenda completa</a
                 >
               </div>
               <!-- column 1 ends -->
 
               <!-- column 2 starts -->
-              <div class="col-12 col-md-6 small-device-space">
-                <img src="assets/images/hero-img.png" alt="image" />
+              <div class="col-12 col-md-6 small-device-space d-flex align-items-center justify-content-center">
+                <img src="assets/images/hero-img.png" alt="image" style="width: 100%; height: auto; object-fit: contain;" />
               </div>
               <!-- column 2 ends -->
             </div>
@@ -163,64 +190,13 @@
         <!-- hero section ends
 ================================================== -->
 
-        <!-- logo carousel section starts
-================================================== -->
-        <section class="dtr-section dtr-py-50">
-          <div class="container">
-            <!--== row starts ==-->
-            <div class="row">
-              <div class="col-12 col-md-10 offset-md-1">
-                <!--=== img slider - 3col starts ===-->
-                <div class="dtr-slick-slider dtr-img-slider-6col">
-                  <!-- img 1 -->
-                  <div>
-                    <img src="assets/images/client-2.png" alt="image" />
-                  </div>
-                  <!-- img 2 -->
-                  <div>
-                    <img src="assets/images/client-1.png" alt="image" />
-                  </div>
-                  <!-- img 3 -->
-                  <div>
-                    <img src="assets/images/client-3.png" alt="image" />
-                  </div>
-                  <!-- img 4 -->
-                  <div>
-                    <img src="assets/images/client-4.png" alt="image" />
-                  </div>
-                  <!-- img 5 -->
-                  <div>
-                    <img src="assets/images/client-5.png" alt="image" />
-                  </div>
-                  <!-- img 6 -->
-                  <div>
-                    <img src="assets/images/client-6.png" alt="image" />
-                  </div>
-                  <!-- img 7 -->
-                  <div>
-                    <img src="assets/images/client-2.png" alt="image" />
-                  </div>
-                  <!-- img 8 -->
-                  <div>
-                    <img src="assets/images/client-4.png" alt="image" />
-                  </div>
-                </div>
-                <!--=== img slider - 3col ends ===-->
-              </div>
-            </div>
-            <!--== row ends ==-->
-          </div>
-        </section>
-        <!-- logo carousel section ends
-================================================== -->
-
         <!-- features section starts
 ================================================== -->
         <section id="features" class="dtr-section dtr-pt-50 dtr-pb-70">
           <div class="container">
             <!-- heading starts -->
             <div class="dtr-styled-heading text-center">
-              <h2>
+              <h2 style="color: #4557e1">
                 ¿Por qué los concreteros<br />
                 eligen AMCI?
               </h2>
@@ -238,7 +214,31 @@
                   Conexión directa entre concreteros independientes de todo el
                   país.
                 </p>
-                <img src="assets/images/icon-large1.png" alt="image" />
+                <div
+                  style="
+                    background-color: #1d4ed8; /* azul brillante como en tu imagen */
+                    clip-path: polygon(
+                      50% 0%,
+                      93% 25%,
+                      93% 75%,
+                      50% 100%,
+                      7% 75%,
+                      7% 25%
+                    );
+                    width: 150px;
+                    height: 130px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    src="assets/images/icon.svg"
+                    alt="image"
+                    style="width: 60%; height: auto"
+                  />
+                </div>
+
                 <p>
                   Intercambia ideas, comparte retos operativos y colabora con
                   colegas que entienden tu día a día en planta. Construimos
@@ -255,7 +255,30 @@
                 <p class="font-style-italic">
                   Encuentros presenciales con valor comercial y técnico real.
                 </p>
-                <img src="assets/images/icon-large2.png" alt="image" />
+                <div
+                  style="
+                    background-color: #1d4ed8; /* azul brillante como en tu imagen */
+                    clip-path: polygon(
+                      50% 0%,
+                      93% 25%,
+                      93% 75%,
+                      50% 100%,
+                      7% 75%,
+                      7% 25%
+                    );
+                    width: 150px;
+                    height: 130px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    src="assets/images/iconred.svg"
+                    alt="image"
+                    style="width: 60%; height: auto"
+                  />
+                </div>
                 <p>
                   Desde desayunos hasta asambleas, cada evento ofrece
                   oportunidades de negocio, aprendizaje y alianzas con
@@ -273,7 +296,30 @@
                 <p class="font-style-italic">
                   Beneficios concretos para tu operación desde el día uno.
                 </p>
-                <img src="assets/images/icon-large3.png" alt="image" />
+                <div
+                  style="
+                    background-color: #1d4ed8; /* azul brillante como en tu imagen */
+                    clip-path: polygon(
+                      50% 0%,
+                      93% 25%,
+                      93% 75%,
+                      50% 100%,
+                      7% 75%,
+                      7% 25%
+                    );
+                    width: 150px;
+                    height: 130px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                  "
+                >
+                  <img
+                    src="assets/images/iconstar.svg"
+                    alt="image"
+                    style="width: 60%; height: auto"
+                  />
+                </div>
                 <p>
                   Accede a aliados estratégicos, cursos exclusivos, visibilidad
                   nacional, descuentos y representación gremial. AMCI trabaja
@@ -292,7 +338,10 @@
 ================================================== -->
         <section
           class="dtr-section dtr-py-100 bg-light-blue parallax"
-          style="background-image: url(assets/images/cta-bg.png)"
+          style="
+            background-image: url(assets/images/cta-bg.png);
+            background-size: cover;
+          "
         >
           <div class="container">
             <!--== row starts ==-->
@@ -305,10 +354,10 @@
                 </h4>
               </div>
               <div class="col-12 col-md-6 text-md-right">
-                <a href="#" class="dtr-btn dtr-btn-styled btn-red"
+                <a href="#contact" class="dtr-btn dtr-btn-styled btn-red"
                   >Registrarme al próximo evento</a
                 >
-                <a href="#" class="dtr-btn-flat btn-flat-blue dtr-ml-5"
+                <a href="#events" class="dtr-btn-flat btn-flat-blue dtr-ml-5"
                   >Ver calendario</a
                 >
               </div>
@@ -324,7 +373,9 @@
         <section id="testimonial" class="dtr-section dtr-py-100">
           <!-- heading starts -->
           <div class="dtr-styled-heading text-center">
-            <h2>Lo que dicen los concreteros que ya asistieron</h2>
+            <h2 style="color: #4557e1">
+              Lo que dicen los concreteros que ya asistieron
+            </h2>
             <p>
               Más que eventos, son espacios para construir conexiones, crecer
               profesionalmente y fortalecer tu concretera.
@@ -473,8 +524,7 @@
                     data-autoplay="true"
                     data-vbtype="video"
                     href="https://www.youtube.com/watch?v=kuceVNBTJio"
-                    ><i class="icon-play-circle2 dtr-btn-left-icon"></i>See how
-                    it works</a
+                    ><i class="icon-play-circle2 dtr-btn-left-icon"></i>Ver Próximos Eventos</a
                   >
                 </p>
               </div>
@@ -490,11 +540,11 @@
 
         <!-- pricing section starts
 ================================================== -->
-        <section id="pricing" class="dtr-section dtr-py-100">
+        <section id="events" class="dtr-section dtr-py-100">
           <div class="container">
             <!-- heading starts -->
             <div class="dtr-styled-heading text-center">
-              <h2>Próximos Eventos</h2>
+              <h2 style="color: #4557e1">Próximos Eventos</h2>
               <p>2025</p>
             </div>
             <!-- heading ends -->
@@ -583,12 +633,8 @@
               <div class="col-12">
                 <div class="tab-content" id="v-pills-tabContent">
                   <!--== tab 1 content starts ==-->
-                  <div
-                    class="tab-pane fade show active"
-                    id="pricing-tab-1"
-                    role="tabpanel"
-                    aria-labelledby="pricing-tab-1-tab"
-                  >
+                  <div class="tab-pane fade show active" id="pricing-tab-1" role="tabpanel" aria-labelledby="pricing-tab-1-tab">
+
                     <!-- row starts -->
                     <div class="row">
                       <!-- column 1 starts -->
@@ -608,50 +654,79 @@
                             exclusivo.
                           </p>
                           <div class="event-details">
-                            <ul>
-                              <li>
-                                <strong>Fecha:</strong> Viernes 4 de julio 2025
-                              </li>
-                              <li><strong>Hora:</strong> 2:30 PM a 11:00 PM</li>
-                              <li>
-                                <strong>Lugar:</strong> Marriott Puebla Hotel
-                                Mesón del Ángel
-                              </li>
-                              <li>
-                                <strong>Dirección:</strong> Av. Hermanos Serdán
-                                807, Fracc. Las Fuentes, Puebla, Pue.
-                              </li>
-                            </ul>
-                            <h4>Objetivo:</h4>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Fecha:</strong></h5>
+                                    <p class="card-text">Viernes 4 de julio 2025</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Hora:</strong></h5>
+                                    <p class="card-text">2:30 PM a 11:00 PM</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Lugar:</strong></h5>
+                                    <p class="card-text">Marriott Puebla Hotel Mesón del Ángel</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Dirección:</strong></h5>
+                                    <p class="card-text">Av. Hermanos Serdán 807, Fracc. Las Fuentes, Puebla, Pue.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            
+                            <h4 style="padding-top: 20px;">Objetivo:</h4>
                             <p>
                               Impulsar la innovación, compartir mejores
                               prácticas y fortalecer vínculos comerciales entre
                               concreteros independientes del centro del país y
                               marcas líderes del sector.
                             </p>
-                            <h4>Ponentes destacados:</h4>
-                            <ul>
-                              <li>Manuel Echenique – F-Max Fiber</li>
-                              <li>Arturo Rojano – Construmac</li>
-                              <li>Dania Peñafiel – Teseo Data Lab</li>
-                              <li>
-                                José Luis Piñera – Secretaría de Infraestructura
-                                Puebla
-                              </li>
-                            </ul>
-                            <h4>Costos:</h4>
-                            <ul>
-                              <li>Socio AMCI: $1,800</li>
-                              <li>Socio con habitación: $3,800</li>
-                              <li>No socio: $2,500</li>
-                              <li>No socio con habitación: $4,500</li>
-                            </ul>
-                            <h4>Aliados confirmados:</h4>
-                            <ul>
-                              <li>CEMEX</li>
-                              <li>Construmac</li>
-                              <li>Gobierno de Puebla</li>
-                            </ul>
+                            <div class="row">
+                              <div class="col-4">
+                                <h4>Ponentes destacados:</h4>
+                                <ul>
+                                  <li>Manuel Echenique – F-Max Fiber</li>
+                                  <li>Arturo Rojano – Construmac</li>
+                                  <li>Dania Peñafiel – Teseo Data Lab</li>
+                                  <li>
+                                    José Luis Piñera – Secretaría de Infraestructura
+                                    Puebla
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Costos:</h4>
+                                <ul>
+                                  <li>Socio AMCI: $1,800</li>
+                                  <li>Socio con habitación: $3,800</li>
+                                  <li>No socio: $2,500</li>
+                                  <li>No socio con habitación: $4,500</li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Aliados confirmados:</h4>
+                                <ul>
+                                  <li>CEMEX</li>
+                                  <li>Construmac</li>
+                                  <li>Gobierno de Puebla</li>
+                                </ul>
+                              </div>
+                            </div>
                             <a
                               href="#"
                               class="dtr-btn-flat btn-flat-blue dtr-mt-30"
@@ -668,12 +743,8 @@
                   <!--== tab 1 content ends ==-->
 
                   <!--== tab 2 content starts ==-->
-                  <div
-                    class="tab-pane fade show active"
-                    id="pricing-tab-2"
-                    role="tabpanel"
-                    aria-labelledby="pricing-tab-2-tab"
-                  >
+                  <div class="tab-pane fade" id="pricing-tab-2" role="tabpanel" aria-labelledby="pricing-tab-2-tab">
+
                     <!-- row starts -->
                     <div class="row">
                       <!-- column 2 starts -->
@@ -691,50 +762,81 @@
                             por ARKIK.
                           </p>
                           <div class="event-details">
-                            <ul>
-                              <li>
-                                <strong>Fecha:</strong> 11 de septiembre 2025
-                              </li>
-                              <li><strong>Hora:</strong> 8:00 AM – 12:00 PM</li>
-                              <li><strong>Lugar:</strong> Por confirmar</li>
-                              <li>
-                                <strong>Ciudad:</strong> Guadalajara, Jalisco
-                              </li>
-                            </ul>
-                            <h4>Objetivo:</h4>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Fecha:</strong></h5>
+                                    <p class="card-text">11 de septiembre 2025</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Hora:</strong></h5>
+                                    <p class="card-text">8:00 AM – 12:00 PM</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Lugar:</strong></h5>
+                                    <p class="card-text">Por confirmar</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                                    <p class="card-text">Guadalajara, Jalisco</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                              <h4 style="padding-top: 20px;">Objetivo:</h4>
                             <p>
                               Fomentar el intercambio de conocimientos técnicos,
                               presentar innovaciones de producto y fortalecer la
                               red de concreteros independientes de la región a
                               través de networking de alto valor.
                             </p>
-                            <h4>Actividades:</h4>
-                            <ul>
-                              <li>
-                                Pláticas técnicas con especialistas invitados
-                              </li>
-                              <li>Demostraciones de producto o tecnología</li>
-                              <li>Sesión de networking</li>
-                              <li>Desayuno completo gratuito</li>
-                            </ul>
-                            <h4>Dirigido a:</h4>
-                            <ul>
-                              <li>Dueños de planta</li>
-                              <li>Supervisores de calidad</li>
-                              <li>Aliados del sector</li>
-                            </ul>
-                            <h4>Costo:</h4>
-                            <ul>
-                              <li>
-                                Evento sin costo, requiere registro previo
-                              </li>
-                              <li>Cupo limitado</li>
-                            </ul>
+                            <div class="row">
+                              <div class="col-4">
+                                <h4>Actividades:</h4>
+                                <ul>
+                                  <li>
+                                    Pláticas técnicas con especialistas invitados
+                                  </li>
+                                  <li>Demostraciones de producto o tecnología</li>
+                                  <li>Sesión de networking</li>
+                                  <li>Desayuno completo gratuito</li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Dirigido a:</h4>
+                                <ul>
+                                  <li>Dueños de planta</li>
+                                  <li>Supervisores de calidad</li>
+                                  <li>Aliados del sector</li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Costo:</h4>
+                                <ul>
+                                  <li>
+                                    Evento sin costo, requiere registro previo
+                                  </li>
+                                  <li>Cupo limitado</li>
+                                </ul>
+                              </div>
+                            </div>
                             <a
                               href="#"
                               class="dtr-btn-flat btn-flat-blue dtr-mt-30"
-                              >☕ Asegura tu lugar en este desayuno técnico y
-                              conéctate con concreteros líderes de Jalisco.</a
+                              >☕ Registrarme sin costo</a
                             >
                           </div>
                         </div>
@@ -747,12 +849,8 @@
                   <!--== tab 2 content ends ==-->
 
                   <!--== tab 3 content starts ==-->
-                  <div
-                    class="tab-pane fade show active"
-                    id="pricing-tab-3"
-                    role="tabpanel"
-                    aria-labelledby="pricing-tab-3-tab"
-                  >
+                  <div class="tab-pane fade" id="pricing-tab-3" role="tabpanel" aria-labelledby="pricing-tab-3-tab">
+
                     <!-- row starts -->
                     <div class="row">
                       <!-- column 2 starts -->
@@ -760,49 +858,91 @@
                         <!-- event information starts -->
                         <div class="dtr-pricing bg-white dtr-shadow">
                           <h3 class="dtr-price color-blue">
-                            Reunión de Concreteros Zona Bajío – Aguascalientes 2025
+                            Reunión de Concreteros Zona Bajío – Aguascalientes
+                            2025
                           </h3>
                           <p>
-                            Encuentro clave para concreteros independientes del Bajío. Conferencias, paneles y networking con empresas proveedoras y actores estratégicos del sector.
+                            Encuentro clave para concreteros independientes del
+                            Bajío. Conferencias, paneles y networking con
+                            empresas proveedoras y actores estratégicos del
+                            sector.
                           </p>
                           <div class="event-details">
-                            <ul>
-                              <li>
-                                <strong>Fecha:</strong> 26 de septiembre 2025
-                              </li>
-                              <li><strong>Hora:</strong> 2:30 PM – 11:00 PM</li>
-                              <li><strong>Lugar:</strong> Por confirmar</li>
-                              <li>
-                                <strong>Ciudad:</strong> Aguascalientes, Ags.
-                              </li>
-                            </ul>
-                            <h4>Objetivo:</h4>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Fecha:</strong></h5>
+                                    <p class="card-text">26 de septiembre 2025</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Hora:</strong></h5>
+                                    <p class="card-text">2:30 PM – 11:00 PM</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Lugar:</strong></h5>
+                                    <p class="card-text">Por confirmar</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                                    <p class="card-text">Aguascalientes, Ags.</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h4 style="padding-top: 20px;">Objetivo:</h4>
                             <p>
-                              Impulsar la profesionalización del sector concretero mediante la difusión de innovación técnica, vínculos comerciales y construcción de comunidad.
+                              Impulsar la profesionalización del sector
+                              concretero mediante la difusión de innovación
+                              técnica, vínculos comerciales y construcción de
+                              comunidad.
                             </p>
-                            <h4>Agenda base:</h4>
-                            <ul>
-                              <li>Bienvenida institucional</li>
-                              <li>Conferencias técnicas</li>
-                              <li>Panel de innovación</li>
-                              <li>Exposición de marcas y equipos</li>
-                              <li>Cena de clausura con networking</li>
-                            </ul>
-                            <h4>Ponentes esperados:</h4>
-                            <ul>
-                              <li>Aliados AMCI, expertos del sector, autoridades locales</li>
-                            </ul>
-                            <h4>Costos:</h4>
-                            <ul>
-                              <li>Socio AMCI: $1,800</li>
-                              <li>Socio con habitación: $3,800</li>
-                              <li>No socio: $2,500</li>
-                              <li>No socio con habitación: $4,500</li>
-                            </ul>
+                            <div class="row">
+                              <div class="col-4">
+                                <h4>Agenda base:</h4>
+                                <ul>
+                                  <li>Bienvenida institucional</li>
+                                  <li>Conferencias técnicas</li>
+                                  <li>Panel de innovación</li>
+                                  <li>Exposición de marcas y equipos</li>
+                                  <li>Cena de clausura con networking</li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Ponentes esperados:</h4>
+                                <ul>
+                                  <li>
+                                    Aliados AMCI, expertos del sector, autoridades
+                                    locales
+                                  </li>
+                                </ul>
+                              </div>
+                              <div class="col-4">
+                                <h4>Costos:</h4>
+                                <ul>
+                                  <li>Socio AMCI: $1,800</li>
+                                  <li>Socio con habitación: $3,800</li>
+                                  <li>No socio: $2,500</li>
+                                  <li>No socio con habitación: $4,500</li>
+                                </ul>
+                              </div>
+                            </div>
                             <a
                               href="#"
                               class="dtr-btn-flat btn-flat-blue dtr-mt-30"
-                              >🔗 Regístrate hoy y participa en el evento más relevante para concreteros del Bajío.</a
+                              >Reservar mi lugar</a
                             >
                           </div>
                         </div>
@@ -813,162 +953,263 @@
                     <!-- row ends -->
                   </div>
                   <!--== tab 4 content ends ==-->
-                                    <!--== tab 4 content starts ==-->
-                                    <div
-                                    class="tab-pane fade show active"
-                                    id="pricing-tab-4"
-                                    role="tabpanel"
-                                    aria-labelledby="pricing-tab-4-tab"
-                                  >
-                                    <!-- row starts -->
-                                    <div class="row">
-                                      <!-- column 2 starts -->
-                                      <div class="col-12 col-md-12">
-                                        <!-- event information starts -->
-                                        <div class="dtr-pricing bg-white dtr-shadow">
-                                          <h3 class="dtr-price color-blue">
-                                            Asamblea Nacional AMCI – CDMX 2025
-                                          </h3>
-                                          <p>
-                                            Evento de cierre del ciclo anual de actividades AMCI. En este encuentro nacional se reúnen los principales actores del concreto en México para reflexionar, construir acuerdos y celebrar los avances del gremio.
-                                          </p>
-                                          <div class="event-details">
-                                            <ul>
-                                              <li>
-                                                <strong>Fecha:</strong> 24 de octubre 2025 (tentativa)
-                                              </li>
-                                              <li><strong>Hora:</strong> 2:30 PM – 11:00 PM</li>
-                                              <li><strong>Lugar:</strong> Por confirmar</li>
-                                              <li>
-                                                <strong>Ciudad:</strong> Ciudad de México
-                                              </li>
-                                            </ul>
-                                            <h4>Objetivo:</h4>
-                                            <p>
-                                              Consolidar la comunidad nacional de concreteros independientes, presentar resultados del año y trazar líneas estratégicas de cara al 2026.
-                                            </p>
-                                            <h4>Actividades esperadas:</h4>
-                                            <ul>
-                                              <li>Informe anual y presentación AMCI</li>
-                                              <li>Conferencias magistrales</li>
-                                              <li>Paneles sobre regulación e innovación</li>
-                                              <li> Espacios comerciales y networking</li>
-                                              <li>Cena de gala con música en vivo</li>
-                                            </ul>
-                                            <h4>Costos:</h4>
-                                            <ul>
-                                              <li>Socio AMCI: $1,800</li>
-                                              <li>Socio con habitación: $3,800</li>
-                                              <li>No socio: $2,500</li>
-                                              <li>No socio con habitación: $4,500</li>
-                                            </ul>
-                                            <a
-                                              href="#"
-                                              class="dtr-btn-flat btn-flat-blue dtr-mt-30"
-                                              >🏁 Sé parte del evento nacional que cierra el año para el gremio concretero.</a
-                                            >
-                                          </div>
-                                        </div>
-                                        <!-- event information ends -->
-                                      </div>
-                                      <!-- column 2 ends -->
-                                    </div>
-                                    <!-- row ends -->
-                                  </div>
-                                  <!--== tab 4 content ends ==-->
-                                    <!--== tab 4 content starts ==-->
-                                    <div
-                                    class="tab-pane fade show active"
-                                    id="pricing-tab-5"
-                                    role="tabpanel"
-                                    aria-labelledby="pricing-tab-5-tab"
-                                  >
-                                    <!-- row starts -->
-                                    <div class="row">
-                                      <!-- column 2 starts -->
-                                      <div class="col-12 col-md-12">
-                                        <!-- event information starts -->
-                                        <div class="dtr-pricing bg-white dtr-shadow">
-                                          <h1 class="dtr-price color-blue">
-                                            Cursos Técnicos AMCI + MAPEI – Profesionaliza tu concretera
-                                          </h1>
-                                          <p>
-                                            Capacítate con instructores expertos y eleva el estándar técnico de tu planta. En esta edición especial impartida en alianza con MAPEI, aprenderás a controlar calidad, prevenir fallas y aplicar herramientas estadísticas clave para la operación de concreto.
-                                          </p>
-                                          <div class="event-details">
-                                            <h4>Fecha y sede:</h4>
-                                            <ul>
-                                              <li>
-                                                <strong>Fecha:</strong> Viernes 4 de julio 2025
-                                              </li>
-                                              <li><strong>Hora:</strong> 9:00 AM – 2:00 PM</li>
-                                              <li><strong>Lugar:</strong> Marriott Puebla Hotel Mesón del Ángel</li>
-                                              <li>
-                                                <strong>Dirección:</strong> Av. Hermanos Serdán 807, Fracc. Las Fuentes, Puebla
-                                              </li>
-                                            </ul>
-                                            <h4>Objetivo general:</h4>
-                                            <p>
-                                              Dotar a los asistentes de herramientas prácticas para mejorar la calidad del concreto, prevenir patologías comunes y aplicar control estadístico dentro de planta, con base en estándares técnicos actuales.
-                                            </p>
-                                            <h4>Cursos incluidos:</h4>
-                                            <ol>
-                                              <li>
-                                                <strong>Control de Calidad y Patologías del Concreto</strong>
-                                                <ul>
-                                                  <li><strong>Horario:</strong> 9:00 AM – 12:00 PM</li>
-                                                  <li><strong>Instructor:</strong> Emiliano Blancarte y Daniel Nieto</li>
-                                                  <li><strong>Contenido:</strong> Errores comunes en obra, cómo prevenir fisuras, control por mezcla</li>
-                                                </ul>
-                                              </li>
-                                              <li>
-                                                <strong>Control Estadístico en Plantas de Concreto</strong>
-                                                <ul>
-                                                  <li><strong>Horario:</strong> 12:00 PM – 2:00 PM</li>
-                                                  <li><strong>Instructor:</strong> Luz Villaseñor</li>
-                                                  <li><strong>Contenido:</strong> Aplicación práctica de muestreo, registros, análisis de desviaciones</li>
-                                                </ul>
-                                              </li>
-                                            </ol>
-                                            <h4>Inversión:</h4>
-                                            <ul>
-                                              <li>Socios AMCI: $2,500 MXN por curso | $4,000 por ambos</li>
-                                              <li>No socios: $3,000 MXN por curso</li>
-                                              <li>Incluye constancia, material y coffee break</li>
-                                            </ul>
-                                            <h4>Dirigido a:</h4>
-                                            <ul>
-                                              <li>Jefes de planta</li>
-                                              <li>Supervisores de calidad</li>
-                                              <li>Técnicos operativos</li>
-                                              <li>Dueños de concreteras que deseen implementar estándares técnicos modernos</li>
-                                            </ul>
-                                            <h4>Informes y registro:</h4>
-                                            <ul>
-                                              <li><strong>Correo:</strong> administrador@amciac.org</li>
-                                              <li><strong>Teléfonos:</strong> 81 1804 4452 / 81 1804 1943</li>
-                                            </ul>
-                                            <a
-                                              href="#"
-                                              class="dtr-btn-flat btn-flat-blue dtr-mt-30"
-                                              >🎓 Regístrate hoy y asegura tu lugar en esta capacitación técnica exclusiva para concreteros de alto nivel.</a
-                                            >
-                                          </div>
-                                        </div>
-                                        <!-- event information ends -->
-                                      </div>
-                                      <!-- column 2 ends -->
-                                    </div>
-                                    <!-- row ends -->
-                                  </div>
-                                  <!--== tab 4 content ends ==-->
+                  
+                  <!--== tab 4 content starts ==-->
+                  <div class="tab-pane fade" id="pricing-tab-4" role="tabpanel" aria-labelledby="pricing-tab-4-tab">
 
+                    <!-- row starts -->
+                    <div class="row">
+                      <!-- column 2 starts -->
+                      <div class="col-12 col-md-12">
+                        <!-- event information starts -->
+                        <div class="dtr-pricing bg-white dtr-shadow">
+                          <h3 class="dtr-price color-blue">
+                            Asamblea Nacional AMCI – CDMX 2025
+                          </h3>
+                          <p>
+                            Evento de cierre del ciclo anual de actividades
+                            AMCI. En este encuentro nacional se reúnen los
+                            principales actores del concreto en México para
+                            reflexionar, construir acuerdos y celebrar los
+                            avances del gremio.
+                          </p>
+                          <div class="event-details">
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Fecha:</strong></h5>
+                                    <p class="card-text">24 de octubre 2025 (tentativa)</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Hora:</strong></h5>
+                                    <p class="card-text">2:30 PM – 11:00 PM</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Lugar:</strong></h5>
+                                    <p class="card-text">Por confirmar</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                                    <p class="card-text">Ciudad de México</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h4>Objetivo:</h4>
+                            <p>
+                              Consolidar la comunidad nacional de concreteros
+                              independientes, presentar resultados del año y
+                              trazar líneas estratégicas de cara al 2026.
+                            </p>
+                            <div class="row">
+                              <div class="col-6">
+                                <h4>Actividades esperadas:</h4>
+                                <ul>
+                                  <li>Informe anual y presentación AMCI</li>
+                                  <li>Conferencias magistrales</li>
+                                  <li>Paneles sobre regulación e innovación</li>
+                                  <li>Espacios comerciales y networking</li>
+                                  <li>Cena de gala con música en vivo</li>
+                                </ul>
+                              </div>
+                              <div class="col-6">
+                                <h4>Costos:</h4>
+                                <ul>
+                                  <li>Socio AMCI: $1,800</li>
+                                  <li>Socio con habitación: $3,800</li>
+                                  <li>No socio: $2,500</li>
+                                  <li>No socio con habitación: $4,500</li>
+                                </ul>
+                              </div>
+                            </div>
+                            <a
+                              href="#"
+                              class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                              >Quiero asistir</a
+                            >
+                          </div>
+                        </div>
+                        <!-- event information ends -->
+                      </div>
+                      <!-- column 2 ends -->
+                    </div>
+                    <!-- row ends -->
+                  </div>
+                  <!--== tab 4 content ends ==-->
+                  
+                  <!--== tab 4 content starts ==-->
+                  <div class="tab-pane fade" id="pricing-tab-5" role="tabpanel" aria-labelledby="pricing-tab-5-tab">
+
+                    <!-- row starts -->
+                    <div class="row">
+                      <!-- column 2 starts -->
+                      <div class="col-12 col-md-12">
+                        <!-- event information starts -->
+                        <div class="dtr-pricing bg-white dtr-shadow">
+                          <h1 class="dtr-price color-blue">
+                            Cursos Técnicos AMCI + MAPEI – Profesionaliza tu
+                            concretera
+                          </h1>
+                          <p>
+                            Capacítate con instructores expertos y eleva el
+                            estándar técnico de tu planta. En esta edición
+                            especial impartida en alianza con MAPEI, aprenderás
+                            a controlar calidad, prevenir fallas y aplicar
+                            herramientas estadísticas clave para la operación de
+                            concreto.
+                          </p>
+                          <div class="event-details">
+                            <h4>Fecha y sede:</h4>
+                            <div class="row">
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Fecha:</strong></h5>
+                                    <p class="card-text">Viernes 4 de julio 2025</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Hora:</strong></h5>
+                                    <p class="card-text">9:00 AM – 2:00 PM</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Lugar:</strong></h5>
+                                    <p class="card-text">Marriott Puebla Hotel Mesón del Ángel</p>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="col-md-3">
+                                <div class="card h-100">
+                                  <div class="card-body">
+                                    <h5 class="card-title"><strong>Dirección:</strong></h5>
+                                    <p class="card-text">Av. Hermanos Serdán 807, Fracc. Las Fuentes, Puebla</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <h4 style="padding-top: 20px;">Objetivo:</h4>
+                            <p>
+                              Dotar a los asistentes de herramientas prácticas
+                              para mejorar la calidad del concreto, prevenir
+                              patologías comunes y aplicar control estadístico
+                              dentro de planta, con base en estándares técnicos
+                              actuales.
+                            </p>
+                            <div class="row">
+                              <div class="col-4">
+                                <h4>Cursos incluidos:</h4>
+                                <ol>
+                                  <li>
+                                    <strong
+                                      >Control de Calidad y Patologías del
+                                      Concreto</strong
+                                    >
+                                    <ul>
+                                      <li>
+                                        <strong>Horario:</strong> 9:00 AM – 12:00 PM
+                                      </li>
+                                      <li>
+                                        <strong>Instructor:</strong> Emiliano
+                                        Blancarte y Daniel Nieto
+                                      </li>
+                                      <li>
+                                        <strong>Contenido:</strong> Errores comunes
+                                        en obra, cómo prevenir fisuras, control por
+                                        mezcla
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ol>
+                              </div>
+                              <div class="col-4">
+                                <h4>Control Estadístico en Plantas de
+                                  Concreto:</h4>
+                                <ol>
+                                  <li>
+                                    <strong
+                                      >Control Estadístico en Plantas de
+                                      Concreto</strong
+                                    >
+                                    <ul>
+                                      <li>
+                                        <strong>Horario:</strong> 12:00 PM – 2:00 PM
+                                      </li>
+                                      <li>
+                                        <strong>Instructor:</strong> Luz Villaseñor
+                                      </li>
+                                      <li>
+                                        <strong>Contenido:</strong> Aplicación
+                                        práctica de muestreo, registros, análisis de
+                                        desviaciones
+                                      </li>
+                                    </ul>
+                                  </li>
+                                </ol>
+                              </div>
+                              <div class="col-4">
+                                <h4>Inversión:</h4>
+                                <ul>
+                                  <li>
+                                    Socios AMCI: $2,500 MXN por curso | $4,000 por
+                                    ambos
+                                  </li>
+                                  <li>No socios: $3,000 MXN por curso</li>
+                                  <li>
+                                    Incluye constancia, material y coffee break
+                                  </li>
+                                </ul>
+                              </div>
+                            </div>
+                            <h4>Informes y registro:</h4>
+                            <ul>
+                              <li>
+                                <strong>Correo:</strong>
+                                administrador@amciac.org
+                              </li>
+                              <li>
+                                <strong>Teléfonos:</strong> 81 1804 4452 / 81
+                                1804 1943
+                              </li>
+                            </ul>
+                            <a
+                              href="#"
+                              class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                              >🎓Inscribirme</a
+                            >
+                          </div>
+                        </div>
+                        <!-- event information ends -->
+                      </div>
+                      <!-- column 2 ends -->
+                    </div>
+                    <!-- row ends -->
+                  </div>
+                  <!--== tab 4 content ends ==-->
                 </div>
               </div>
               <!-- tab content ends -->
             </div>
             <!--== tabs end ==-->
-
           </div>
         </section>
         <!-- pricing section ends
@@ -985,18 +1226,18 @@
           <div class="dtr-overlay dtr-overlay-blue"></div>
 
           <!-- content of section (on overlay) starts -->
-          <div
-            class="dtr-py-100 dtr-overlay-content parallax"
-            style="background-image: url(assets/images/form-bg.png)"
-          >
+          <div class="dtr-py-100 dtr-overlay-content parallax">
             <div class="container">
               <!-- heading starts -->
               <div class="dtr-styled-heading text-center">
-                <h2 class="color-white">Impulsa tu concretera con capacitación técnica de alto nivel</h2>
+                <h2 class="color-white">
+                  Impulsa tu concretera con capacitación técnica de alto nivel
+                </h2>
                 <p class="color-white">
-                    Regístrate para asistir a los eventos AMCI y selecciona
+                  Regístrate para asistir a los eventos AMCI y selecciona
 
-                    <br /> los cursos que más se alineen a tu perfil.
+                  <br />
+                  los cursos que más se alineen a tu perfil.
                 </p>
               </div>
               <!-- heading ends -->
@@ -1014,115 +1255,169 @@
                       action="https://tanshcreative.com/ainotion-lp-preview/php/contact-form.php"
                     >
                       <fieldset>
+                        <!-- Email -->
                         <p>
+                          <label for="name">Nombre completo *</label>
                           <input
-                            name="email"
-                            class="required email"
+                            id="name"
+                            name="name"
                             type="text"
-                            placeholder="tu@email.com"
+                            placeholder="Nombre completo"
+                            required
                           />
                         </p>
-                        <div class="dtr-form-row dtr-form-row-2col clearfix">
+
+                        <!-- Nombre completo y empresa -->
+                        <div class="dtr-form-row dtr-form-row-2col">
                           <p class="dtr-form-column">
-                            <input name="name" type="text" placeholder="Nombre completo" />
-                          </p>
-                          <p class="dtr-form-column">
+                            <label for="email">Correo electrónico *</label>
                             <input
+                              id="email"
+                              name="email"
+                              class="required email"
+                              type="email"
+                              placeholder="tu@email.com"
+                              required
+                            />
+                          </p>
+
+                          <p class="dtr-form-column">
+                            <label for="company"
+                              >Nombre de tu concretera / empresa *</label
+                            >
+                            <input
+                              id="company"
                               name="company"
                               type="text"
                               placeholder="Nombre de tu concretera / empresa"
+                              required
                             />
                           </p>
                         </div>
+
+                        <!-- Teléfono y Rol -->
                         <div class="dtr-form-row dtr-form-row-2col">
                           <p class="dtr-form-column">
+                            <label for="number">Teléfono de contacto *</label>
                             <input
+                              id="number"
                               name="number"
-                              class="number"
                               type="tel"
                               placeholder="10 dígitos sin espacios"
+                              required
+                              pattern="\d{10}"
                             />
                           </p>
                           <p class="dtr-form-column">
+                            <label for="role">Cargo / Rol *</label>
                             <input
+                              id="role"
                               name="role"
                               type="text"
                               placeholder="Ej. Jefe de calidad, Dirección, Técnico"
+                              required
                             />
                           </p>
                         </div>
+
+                        <!-- Ubicación y socio -->
                         <div class="dtr-form-row dtr-form-row-2col">
                           <p class="dtr-form-column">
+                            <label for="location">Ciudad / Estado *</label>
                             <input
+                              id="location"
                               name="location"
                               type="text"
                               placeholder="Ubicación actual"
+                              required
                             />
                           </p>
                           <p class="dtr-form-column">
-                            <select name="amci" class="dtr-select">
-                              <option value="">¿Eres socio AMCI?</option>
+                            <label for="amci">¿Eres socio AMCI? *</label>
+                            <select
+                              id="amci"
+                              name="amci"
+                              class="dtr-select"
+                              required
+                            >
+                              <option value="">Selecciona una opción</option>
                               <option value="1">Sí</option>
                               <option value="2">No aún</option>
                               <option value="3">Quiero afiliarme</option>
                             </select>
                           </p>
                         </div>
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Control estadístico de procesos en planta"
-                            />
-                            <label for="courses">Control estadístico de procesos en planta</label>
-                          </p>
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Patologías del concreto y prevención de fallas"
-                            />
-                            <label for="courses">Patologías del concreto y prevención de fallas</label>
-                          </p>
+
+                        <!-- Cursos -->
+                        <div class="dtr-form-row">
+                          <label
+                            ><strong
+                              >Selecciona uno o más cursos *</strong
+                            ></label
+                          >
+                          <div class="dtr-form-checkbox-group">
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Control estadístico de procesos en planta"
+                                required
+                              />
+                              Control estadístico de procesos en planta</label
+                            ><br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Patologías del concreto y prevención de fallas"
+                              />
+                              Patologías del concreto y prevención de
+                              fallas</label
+                            ><br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Tecnología y aditivos para concreto de alto desempeño"
+                              />
+                              Tecnología y aditivos para concreto de alto
+                              desempeño</label
+                            ><br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Normativas actualizadas en calidad de concreto en obra"
+                              />
+                              Normativas actualizadas en calidad de concreto en
+                              obra</label
+                            ><br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Manejo seguro de materiales e higiene industrial"
+                              />
+                              Manejo seguro de materiales e higiene
+                              industrial</label
+                            ><br />
+                            <label
+                              ><input
+                                type="checkbox"
+                                name="courses[]"
+                                value="Cursos Técnicos MAPEI-AMCI"
+                              />
+                              Cursos Técnicos MAPEI-AMCI</label
+                            >
+                          </div>
                         </div>
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Tecnología y aditivos para concreto de alto desempeño"
-                            />
-                            <label for="courses">Tecnología y aditivos para concreto de alto desempeño</label>
-                          </p>
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Normativas actualizadas en calidad de concreto en obra"
-                            />
-                            <label for="courses">Normativas actualizadas en calidad de concreto en obra</label>
-                          </p>
-                        </div>
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Manejo seguro de materiales e higiene industrial"
-                            />
-                            <label for="courses">Manejo seguro de materiales e higiene industrial</label>
-                          </p>
-                          <p class="dtr-form-column">
-                            <input
-                              name="courses"
-                              type="checkbox"
-                              value="Cursos Técnicos MAPEI-AMCI"
-                            />
-                            <label for="courses">Cursos Técnicos MAPEI-AMCI</label>
-                          </p>
-                        </div>
+
+                        <!-- Comentarios -->
                         <p>
+                          <label for="additional_message"
+                            >Duda, comentario o necesidad específica
+                            (opcional)</label
+                          >
                           <textarea
                             rows="6"
                             name="additional_message"
@@ -1130,6 +1425,8 @@
                             placeholder="Duda, comentario o necesidad específica"
                           ></textarea>
                         </p>
+
+                        <!-- CTA -->
                         <p class="text-center">
                           <button
                             class="dtr-btn dtr-btn-styled btn-red dtr-mt-20"
@@ -1138,6 +1435,7 @@
                             Reservar mi lugar
                           </button>
                         </p>
+
                         <div id="result"></div>
                       </fieldset>
                     </form>
@@ -1162,30 +1460,29 @@
               <!-- column 1 starts -->
               <div class="col-12 col-sm-6 col-lg-5 small-device-space">
                 <img
-                  src="assets/images/logo-light.png"
+                  src="assets/images/logoamci.png"
                   alt="image"
                   class="dtr-mb-30"
                 />
                 <p class="dtr-mb-30">
-                  Get AI-assisted services for<br />
-                  smooth workflow.
+                  Somos una Asociación Civil integrada por un gran número de empresas dedicadas a la producción y comercialización de concreto premezclado en México.
                 </p>
-                <p>© 2020 Ainotion by Tansh</p>
+                <p>© <script>document.write(new Date().getFullYear())</script> AMCI | Todos los derechos reservados.</p>
 
                 <!-- social starts -->
                 <div class="dtr-social-square dtr-mt-20">
                   <ul class="dtr-social dtr-social-list text-left">
                     <li>
                       <a
-                        href="#"
-                        class="dtr-twitter"
+                        href="https://www.instagram.com/amci.ac/"
+                        class="dtr-instagram"
                         target="_blank"
                         title="twitter"
                       ></a>
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://www.facebook.com/mexicoenconcreto"
                         class="dtr-facebook"
                         target="_blank"
                         title="facebook"
@@ -1193,7 +1490,7 @@
                     </li>
                     <li>
                       <a
-                        href="#"
+                        href="https://amciac.org/"
                         class="dtr-google"
                         target="_blank"
                         title="google"
@@ -1207,25 +1504,19 @@
 
               <!-- column 2 starts -->
               <div class="col-12 col-sm-6 col-lg-2 small-device-space">
-                <h5>Quick Links</h5>
+                <h5>Enlaces Rápidos</h5>
                 <ul class="dtr-list">
-                  <li><a href="#">Features</a></li>
-                  <li><a href="#">Pricing</a></li>
-                  <li><a href="#">Use Cases</a></li>
-                  <li><a href="#">Integrations</a></li>
-                  <li><a href="#">Ainotion API</a></li>
+                  <li><a href="#">Registro</a></li>
+                  <li><a href="#">Calendario</a></li>
                 </ul>
               </div>
               <!-- column 2 ends -->
 
               <!-- column 3 starts -->
               <div class="col-12 col-sm-6 col-lg-2 small-device-space">
-                <h5>Company</h5>
+                <h5>Acerca de</h5>
                 <ul class="dtr-list">
-                  <li><a href="#">About Us</a></li>
-                  <li><a href="#">Our Team</a></li>
-                  <li><a href="#">news & Articles</a></li>
-                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">AMCI</a></li>
                 </ul>
               </div>
               <!-- column 3 ends -->
@@ -1233,13 +1524,16 @@
               <!-- column 4 starts -->
               <div class="col-12 col-sm-6 col-lg-3">
                 <h5>Contact Us</h5>
-                <p>3245 East Creek Blvd, Suite 590, Bos Boomer, AU 20076</p>
+                <p>David Alfaro Siqueiros 106-SUITE 1700 P.17, Valle Oriente, 66269 San Pedro Garza García, N.L.</p>
                 <p>
-                  <a href="#"
+                  <a href="mailto:administrador@amciac.org"
                     ><i class="icon-envelope dtr-mr-5 color-blue"></i>
-                    sayhello@example.com</a
+                    administrador@amciac.org</a
                   >
                 </p>
+                <p>Oficinas: 81 4739 5426</p>
+                <p>Atención a socios y proveedores: 81 1804 4452</p>
+                <p>Relaciones gubernamentales y eventos: 81 1804 1943</p>
                 <p>
                   <i class="icon-phone-alt dtr-mr-5 color-blue"></i> 90 1234 56
                   78

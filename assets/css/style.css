@@ -235,7 +235,6 @@ strong { font-size: 1.000em; line-height: 25px; font-weight: 600; }
 .dtr-p-100 { padding: 100px !important }
 .dtr-pt-100, .dtr-py-100 { padding-top: 100px !important }
 .dtr-pr-100, .dtr-px-100 { padding-right: 100px !important }
-.dtr-pb-100, .dtr-py-100 { padding-bottom: 100px !important }
 .dtr-pl-100, .dtr-px-100 { padding-left: 100px !important }
 /*== images ==*/
 .dtr-rounded-img, .dtr-rounded-img img { border-radius: 10px; }
