@@ -46,7 +46,7 @@ h3, h3 a { font-size: 1.875em; line-height: 1.3em; }
 h4, h4 a { font-size: 1.500em; line-height: 1.3em; }
 h5, h5 a { font-size: 1.125em; line-height: 1.3em; }
 h6, h6 a { font-size: 1.000em; line-height: 1.5em; }
-strong { font-size: 1.000em; line-height: 25px; font-weight: 600; }
+strong { font-size: 1.000em; line-height: 25px;}
 .small { font-size: 0.750em; line-height: 1.8em; }
 /* text sizes */
 .text-size-xxl { font-size: 68px; line-height: 68px; }
@@ -494,7 +494,7 @@ ol li, ul li { margin-bottom: 10px; }
 form { margin: 0; padding: 0; z-index: 0; }
 form p { margin: 0 0 10px 0; padding: 0; }
 input[type=radio], input[type=checkbox] { margin: 0 5px 0 0; vertical-align: baseline; }
-label { width: 100%; height: auto; line-height: 1.2em; font-weight: bold; }
+label { width: 100%; height: auto; line-height: 1.2em; }
 form label.error { line-height: 1em; font-weight: normal; }
 select, textarea, input[type="text"], input[type="email"], input[type="url"], input[type="password"], input[type="number"], input[type="tel"], input[type="search"] { position: relative; display: block; width: 100%; padding: 15px 20px; margin: 0 0 4px 0; border-width: 1px; border-style: solid; border-radius: 10px; font-size: 16px; font-weight: normal; line-height: 25px !important; vertical-align: top; -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 textarea, #commentform textarea { width: 100% !important; height: auto; }

@@ -50,6 +50,8 @@
     <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/responsive.css" />
     <link rel="stylesheet" href="assets/css/color.css" />
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
   </head>
   <body>
     <div id="dtr-wrapper" class="clearfix">
@@ -188,6 +190,244 @@
           </div>
         </section>
         <!-- hero section ends
+================================================== -->
+
+        <!-- contact section starts
+================================================== -->
+<section
+id="contact"
+class="dtr-section bg-blue"
+style="background-image: url(assets/images/section-bg-img.jpg)"
+>
+<!-- overlay to section -->
+<div class="dtr-overlay dtr-overlay-blue"></div>
+
+<!-- content of section (on overlay) starts -->
+<div class="dtr-py-100 dtr-overlay-content parallax">
+  <div class="container">
+    <!-- heading starts -->
+    <div class="dtr-styled-heading text-center">
+      <h2 class="color-white">
+        Impulsa tu concretera con capacitación técnica de alto nivel
+      </h2>
+      <p class="color-white">
+        Regístrate para asistir a los eventos AMCI y selecciona
+
+        <br />
+        los cursos que más se alineen a tu perfil.
+      </p>
+    </div>
+    <!-- heading ends -->
+
+    <!--== row starts ==-->
+    <div class="row">
+      <div class="col-12 col-lg-8 offset-lg-2">
+        <!-- form starts -->
+        <div
+          class="dtr-form dtr-p-50 dtr-sm-p-20 dtr-border-5px dtr-rounded-xl bg-blue border-light-blue"
+        >
+        <form
+        id="FormCursos"
+        method="POST"
+        action="https://script.google.com/macros/s/AKfycbykJ0pIaimySsHQRg25buH0DP6T3AUF_APSkTglO0PSzyLbblYdfcOX9X98s4ncMlhc/exec"
+      >
+            <fieldset>
+              <!-- Email -->
+              <p>
+                <label for="name">Nombre completo *</label>
+                <input
+                  id="name"
+                  name="name"
+                  type="text"
+                  placeholder="Nombre completo"
+                  required
+                />
+              </p>
+
+              <!-- Nombre completo y empresa -->
+              <div class="dtr-form-row dtr-form-row-2col">
+                <p class="dtr-form-column">
+                  <label for="email">Correo electrónico *</label>
+                  <input
+                    id="email"
+                    name="email"
+                    class="required email"
+                    type="email"
+                    placeholder="tu@email.com"
+                    required
+                  />
+                </p>
+
+                <p class="dtr-form-column">
+                  <label for="company"
+                    >Nombre de tu concretera / empresa *</label
+                  >
+                  <input
+                    id="company"
+                    name="company"
+                    type="text"
+                    placeholder="Nombre de tu concretera / empresa"
+                    required
+                  />
+                </p>
+              </div>
+
+              <!-- Teléfono y Rol -->
+              <div class="dtr-form-row dtr-form-row-2col">
+                <p class="dtr-form-column">
+                  <label for="number">Teléfono de contacto *</label>
+                  <input
+                  id="number"
+                  name="number"
+                  type="tel"
+                  inputmode="numeric"
+                  placeholder="10 dígitos sin espacios"
+                  required
+                  pattern="\d{10}"
+                />
+
+                </p>
+                <p class="dtr-form-column">
+                  <label for="role">Cargo / Rol *</label>
+                  <input
+                    id="role"
+                    name="role"
+                    type="text"
+                    placeholder="Ej. Jefe de calidad, Dirección, Técnico"
+                    required
+                  />
+                </p>
+              </div>
+
+              <!-- Ubicación y socio -->
+              <div class="dtr-form-row dtr-form-row-2col">
+                <p class="dtr-form-column">
+                  <label for="location">Ciudad / Estado *</label>
+                  <input
+                    id="location"
+                    name="location"
+                    type="text"
+                    placeholder="Ubicación actual"
+                    required
+                  />
+                </p>
+                <p class="dtr-form-column">
+                  <label for="amci">¿Eres socio AMCI? *</label>
+                  <select
+                    id="amci"
+                    name="amci"
+                    class="dtr-select"
+                    required
+                  >
+                    <option value="">Selecciona una opción</option>
+                    <option value="Si">Sí</option>
+                    <option value="No">No aún</option>
+                    <option value="Interes">Quiero afiliarme</option>
+                  </select>
+                </p>
+              </div>
+
+              <!-- Cursos -->
+              <div class="dtr-form-row">
+                <label
+                  ><strong
+                    >Selecciona uno o más cursos *</strong
+                  ></label
+                >
+                <div class="dtr-form-checkbox-group">
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Control estadístico de procesos en planta"
+                      required
+                    />
+                    Control estadístico de procesos en planta</label
+                  ><br />
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Patologías del concreto y prevención de fallas"
+                    />
+                    Patologías del concreto y prevención de
+                    fallas</label
+                  ><br />
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Tecnología y aditivos para concreto de alto desempeño"
+                    />
+                    Tecnología y aditivos para concreto de alto
+                    desempeño</label
+                  ><br />
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Normativas actualizadas en calidad de concreto en obra"
+                    />
+                    Normativas actualizadas en calidad de concreto en
+                    obra</label
+                  ><br />
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Manejo seguro de materiales e higiene industrial"
+                    />
+                    Manejo seguro de materiales e higiene
+                    industrial</label
+                  ><br />
+                  <label
+                    ><input
+                      type="checkbox"
+                      name="courses[]"
+                      value="Cursos Técnicos MAPEI-AMCI"
+                    />
+                    Cursos Técnicos MAPEI-AMCI</label
+                  >
+                </div>
+              </div>
+
+              <!-- Comentarios -->
+              <p>
+                <label for="additional_message"
+                  >Duda, comentario o necesidad específica
+                  (opcional)</label
+                >
+                <textarea
+                  rows="6"
+                  name="additional_message"
+                  id="additional_message"
+                  placeholder="Duda, comentario o necesidad específica"
+                ></textarea>
+              </p>
+
+              <!-- CTA -->
+              <p class="text-center">
+                <button
+                  class="dtr-btn dtr-btn-styled btn-red dtr-mt-20"
+                  type="submit"
+                >
+                  Reservar mi lugar
+                </button>
+              </p>
+
+              <div id="result"></div>
+            </fieldset>
+          </form>
+        </div>
+        <!-- form ends -->
+      </div>
+    </div>
+    <!--== row ends ==-->
+  </div>
+</div>
+<!-- content of section ends -->
+</section>
+<!-- contact section ends
 ================================================== -->
 
         <!-- features section starts
@@ -348,7 +588,7 @@
             <div class="row align-items-center">
               <div class="col-12 col-md-6">
                 <p>Impulsa tu concretera con mejores decisiones</p>
-                <h4>
+                <h4 style="color: white;">
                   Conecta con concreteros, aliados estratégicos y expertos del
                   sector en espacios diseñados para crecer juntos.
                 </h4>
@@ -432,7 +672,8 @@
                   <div class="dtr-testimonial-user-info">
                     <h6 class="dtr-client-name">Alejandro Gutiérrez</h6>
                     <span class="dtr-client-job"
-                      >Director Operativo, Concretos del Bajío</span
+                      >Jefa de Calidad, Concretera Monarca
+                      </span
                     >
                   </div>
                 </div>
@@ -459,7 +700,7 @@
                   <div class="dtr-testimonial-user-info">
                     <h6 class="dtr-client-name">Sofía Nájera</h6>
                     <span class="dtr-client-job"
-                      >Jefa de Calidad, Concretera Monarca</span
+                      >Director Operativo, Concretos del Bajío</span
                     >
                   </div>
                 </div>
@@ -568,7 +809,8 @@
                     aria-selected="true"
                   >
                     Reunión Anual <br />
-                    Zona Centro
+                    Zona Centro <br>
+                    <strong>Puebla, 5 de Julio</strong>
                   </a>
                   <!-- tab 1 link ends -->
 
@@ -582,7 +824,9 @@
                     aria-controls="pricing-tab-2"
                     aria-selected="false"
                     >Impulsando el <br />
-                    futuro del concreto</a
+                    futuro del concreto <br />
+                    <span style="font-weight: bold;">Guadalajara, <br> 11 de septiembre</span>
+                    </a
                   >
                   <!-- tab 2 link ends -->
 
@@ -595,8 +839,7 @@
                     role="tab"
                     aria-controls="pricing-tab-3"
                     aria-selected="false"
-                    >Reunión de <br />
-                    Concreteros</a
+                    >Reunión de <br> Concreteros <br><strong> <span>Aguascalientes, <br> 26 de Sep</span></strong></a
                   >
                   <!-- tab 2 link ends -->
 
@@ -609,7 +852,7 @@
                     role="tab"
                     aria-controls="pricing-tab-4"
                     aria-selected="false"
-                    >Asamblea General <br />de Concreteros</a
+                    >Asamblea General <br />de Concreteros <br> <strong>CDMX, Octubre</strong></a
                   >
                   <!-- tab 2 link ends -->
 
@@ -622,7 +865,7 @@
                     role="tab"
                     aria-controls="pricing-tab-5"
                     aria-selected="false"
-                    >Cursos Técnicos <br />MAPEI-AMCI</a
+                    >Cursos Técnicos <br />MAPEI-AMCI <br> <strong>Puebla, 4 de Julio</strong></a
                   >
                   <!-- tab 2 link ends -->
                 </div>
@@ -1215,241 +1458,7 @@
         <!-- pricing section ends
 ================================================== -->
 
-        <!-- contact section starts
-================================================== -->
-        <section
-          id="contact"
-          class="dtr-section bg-blue"
-          style="background-image: url(assets/images/section-bg-img.jpg)"
-        >
-          <!-- overlay to section -->
-          <div class="dtr-overlay dtr-overlay-blue"></div>
 
-          <!-- content of section (on overlay) starts -->
-          <div class="dtr-py-100 dtr-overlay-content parallax">
-            <div class="container">
-              <!-- heading starts -->
-              <div class="dtr-styled-heading text-center">
-                <h2 class="color-white">
-                  Impulsa tu concretera con capacitación técnica de alto nivel
-                </h2>
-                <p class="color-white">
-                  Regístrate para asistir a los eventos AMCI y selecciona
-
-                  <br />
-                  los cursos que más se alineen a tu perfil.
-                </p>
-              </div>
-              <!-- heading ends -->
-
-              <!--== row starts ==-->
-              <div class="row">
-                <div class="col-12 col-lg-8 offset-lg-2">
-                  <!-- form starts -->
-                  <div
-                    class="dtr-form dtr-p-50 dtr-sm-p-20 dtr-border-5px dtr-rounded-xl bg-blue border-light-blue"
-                  >
-                    <form
-                      id="contactform"
-                      method="post"
-                      action="https://tanshcreative.com/ainotion-lp-preview/php/contact-form.php"
-                    >
-                      <fieldset>
-                        <!-- Email -->
-                        <p>
-                          <label for="name">Nombre completo *</label>
-                          <input
-                            id="name"
-                            name="name"
-                            type="text"
-                            placeholder="Nombre completo"
-                            required
-                          />
-                        </p>
-
-                        <!-- Nombre completo y empresa -->
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <label for="email">Correo electrónico *</label>
-                            <input
-                              id="email"
-                              name="email"
-                              class="required email"
-                              type="email"
-                              placeholder="tu@email.com"
-                              required
-                            />
-                          </p>
-
-                          <p class="dtr-form-column">
-                            <label for="company"
-                              >Nombre de tu concretera / empresa *</label
-                            >
-                            <input
-                              id="company"
-                              name="company"
-                              type="text"
-                              placeholder="Nombre de tu concretera / empresa"
-                              required
-                            />
-                          </p>
-                        </div>
-
-                        <!-- Teléfono y Rol -->
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <label for="number">Teléfono de contacto *</label>
-                            <input
-                              id="number"
-                              name="number"
-                              type="tel"
-                              placeholder="10 dígitos sin espacios"
-                              required
-                              pattern="\d{10}"
-                            />
-                          </p>
-                          <p class="dtr-form-column">
-                            <label for="role">Cargo / Rol *</label>
-                            <input
-                              id="role"
-                              name="role"
-                              type="text"
-                              placeholder="Ej. Jefe de calidad, Dirección, Técnico"
-                              required
-                            />
-                          </p>
-                        </div>
-
-                        <!-- Ubicación y socio -->
-                        <div class="dtr-form-row dtr-form-row-2col">
-                          <p class="dtr-form-column">
-                            <label for="location">Ciudad / Estado *</label>
-                            <input
-                              id="location"
-                              name="location"
-                              type="text"
-                              placeholder="Ubicación actual"
-                              required
-                            />
-                          </p>
-                          <p class="dtr-form-column">
-                            <label for="amci">¿Eres socio AMCI? *</label>
-                            <select
-                              id="amci"
-                              name="amci"
-                              class="dtr-select"
-                              required
-                            >
-                              <option value="">Selecciona una opción</option>
-                              <option value="1">Sí</option>
-                              <option value="2">No aún</option>
-                              <option value="3">Quiero afiliarme</option>
-                            </select>
-                          </p>
-                        </div>
-
-                        <!-- Cursos -->
-                        <div class="dtr-form-row">
-                          <label
-                            ><strong
-                              >Selecciona uno o más cursos *</strong
-                            ></label
-                          >
-                          <div class="dtr-form-checkbox-group">
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Control estadístico de procesos en planta"
-                                required
-                              />
-                              Control estadístico de procesos en planta</label
-                            ><br />
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Patologías del concreto y prevención de fallas"
-                              />
-                              Patologías del concreto y prevención de
-                              fallas</label
-                            ><br />
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Tecnología y aditivos para concreto de alto desempeño"
-                              />
-                              Tecnología y aditivos para concreto de alto
-                              desempeño</label
-                            ><br />
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Normativas actualizadas en calidad de concreto en obra"
-                              />
-                              Normativas actualizadas en calidad de concreto en
-                              obra</label
-                            ><br />
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Manejo seguro de materiales e higiene industrial"
-                              />
-                              Manejo seguro de materiales e higiene
-                              industrial</label
-                            ><br />
-                            <label
-                              ><input
-                                type="checkbox"
-                                name="courses[]"
-                                value="Cursos Técnicos MAPEI-AMCI"
-                              />
-                              Cursos Técnicos MAPEI-AMCI</label
-                            >
-                          </div>
-                        </div>
-
-                        <!-- Comentarios -->
-                        <p>
-                          <label for="additional_message"
-                            >Duda, comentario o necesidad específica
-                            (opcional)</label
-                          >
-                          <textarea
-                            rows="6"
-                            name="additional_message"
-                            id="additional_message"
-                            placeholder="Duda, comentario o necesidad específica"
-                          ></textarea>
-                        </p>
-
-                        <!-- CTA -->
-                        <p class="text-center">
-                          <button
-                            class="dtr-btn dtr-btn-styled btn-red dtr-mt-20"
-                            type="submit"
-                          >
-                            Reservar mi lugar
-                          </button>
-                        </p>
-
-                        <div id="result"></div>
-                      </fieldset>
-                    </form>
-                  </div>
-                  <!-- form ends -->
-                </div>
-              </div>
-              <!--== row ends ==-->
-            </div>
-          </div>
-          <!-- content of section ends -->
-        </section>
-        <!-- contact section ends
-================================================== -->
 
         <!-- footer section starts
 ================================================== -->
@@ -1523,7 +1532,7 @@
 
               <!-- column 4 starts -->
               <div class="col-12 col-sm-6 col-lg-3">
-                <h5>Contact Us</h5>
+                <h5>Contacto</h5>
                 <p>David Alfaro Siqueiros 106-SUITE 1700 P.17, Valle Oriente, 66269 San Pedro Garza García, N.L.</p>
                 <p>
                   <a href="mailto:administrador@amciac.org"
@@ -1556,6 +1565,55 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/plugins.js"></script>
     <script src="assets/js/custom.js"></script>
+
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const form = document.getElementById("FormCursos");
+        if (!form) {
+          console.error("⚠️ No se encontró el formulario con ID 'FormCursos'");
+          return;
+        }
+    
+        form.addEventListener("submit", function (event) {
+          event.preventDefault();
+    
+          const formData = new FormData(form);
+    
+          // Combinar cursos seleccionados
+          const cursosSeleccionados = formData.getAll("courses[]").join(", ");
+          formData.delete("courses[]");
+          formData.append("courses", cursosSeleccionados);
+    
+          // Enviar los datos
+          fetch(form.action, {
+            method: "POST",
+            body: formData,
+          })
+            .then((response) => response.text())
+            .then((text) => {
+              Swal.fire({
+                title: "¡Éxito!",
+                text: "Tu solicitud ha sido enviada correctamente.",
+                icon: "success",
+                confirmButtonText: "Aceptar",
+              });
+              form.reset();
+            })
+            .catch((error) => {
+              Swal.fire({
+                title: "Error",
+                text: "Hubo un problema al enviar tu solicitud. Por favor, intenta nuevamente.",
+                icon: "error",
+                confirmButtonText: "Aceptar",
+              });
+              console.error("Error al enviar el formulario:", error);
+            });
+        });
+      });
+    </script>
+    
+    
+      
   </body>
 
   <!-- Mirrored from tanshcreative.com/ainotion-lp-preview/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Tue, 01 Jul 2025 21:54:05 GMT -->
