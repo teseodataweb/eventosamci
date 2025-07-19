@@ -522,16 +522,92 @@ select { width: 100% !important; padding: 0 20px; height: 55px; line-height: 55p
 .select2-container--default .select2-selection--single .select2-selection__rendered { color: rgba(7,26,82,0.55); }
 .select2-container--default .select2-results__option--highlighted[aria-selected] { background-color: #92c3ff; color: #fff; }
 /*===== form column styles =====*/
-.dtr-form-row, .dtr-form-row-2col, .dtr-form-row-3col, .dtr-form-row-unequal, .dtr-form-row-2col-unequal { margin-right: -5px; margin-left: -5px }
-.dtr-form-column { position: relative; min-height: 1px; padding-right: 5px; padding-left: 5px; margin-bottom: 5px; width: 50%; float: left; }
-.dtr-for-row::before, .dtr-form-row-2col::before, .dtr-form-row-3col::before, .dtr-form-row-unequal::before, .dtr-form-row-2col-unequal::before { display: table; content: "" }
-.dtr-for-row::after, .dtr-form-row-2col::after, .dtr-form-row-3col::after, .dtr-form-row-unequal::after, .dtr-form-row-2col-unequal::after { clear: both }
-.dtr-form-row-2col .dtr-form-column { width: 50%; }
-.dtr-form-row-3col .dtr-form-column { width: 33.33333333% }
-.dtr-form-row-unequal .dtr-form-column { width: 60% }
-.dtr-form-row-unequal .dtr-form-column:last-child { width: 40% }
-.dtr-form-row-2col-unequal .dtr-form-column { width: 70%; }
-.dtr-form-row-2col-unequal .dtr-form-column:last-child { width: 30%; }
+  form {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.1);
+    font-family: sans-serif;
+  }
+
+  label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  input, select, textarea {
+    width: 100%;
+    padding: 0.6rem;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 1.5rem;
+    font-size: 1rem;
+  }
+
+  .form-row {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .form-col-50 {
+    flex: 1 1 48%;
+  }
+
+  .form-col-100 {
+    flex: 1 1 100%;
+  }
+
+  .checkbox-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #fff;
+    font-weight: normal;
+  }
+
+  .submit-row {
+    text-align: center;
+  }
+
+  button {
+    background-color: #d33;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #b22;
+  }
+
+  @media (max-width: 600px) {
+    .form-col-50 {
+      flex: 1 1 100%;
+    }
+  }
+  .checkbox-group label {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 0.75rem;
+    color: #fff;
+    font-weight: 400;
+    line-height: 1.4;
+  }
+  
+  .checkbox-group input[type="checkbox"] {
+    accent-color: #d33; /* Color del check */
+    width: 18px;
+    height: 18px;
+    margin: 0;
+  }
 /*===== search form =====*/
 .dtr-search-form { position: relative; }
 .dtr-search-submit { display: block; width: 80px; height: 50px; font-weight: normal; padding: 0; margin: 0; border-width: 0; border-radius: 0 5px 5px 0; cursor: pointer; }

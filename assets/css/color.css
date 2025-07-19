@@ -13,7 +13,7 @@ a:hover { color: #071a52; }
 .bg-trans { background-color: transparent !important; }
 .bg-white { background-color: #fff !important; }
 .bg-grey { background-color: #ecedf1 !important; }
-.bg-blue { background-color: #4557e1 !important; }
+.bg-blue { background-color: #4C5259 !important; }
 .bg-light-blue { background-color: #4c5259 !important; }
 .bg-red { background-color: #ff5a5f !important; }
 .bg-dark { background-color: #071a52 !important; }
@@ -160,7 +160,7 @@ font-size: 100%;
 .sf-menu .sub-menu { background-color: #fff; }
 .sf-menu .sub-menu a { border-bottom-color: rgba(0,0,0,0.10); }
 /*===== Responsive header =====*/
-.dtr-responsive-header { background-color: #fff; }
+.dtr-responsive-header { background-color: #071A52; }
 .dtr-hamburger-lines, .dtr-hamburger-lines:after, .dtr-hamburger-lines:before { background-color: #071a52; }
 .slicknav_nav, .slicknav_menu { background-color: #fff; }
 .slicknav_nav li, .slicknav_nav .dropdown-item { border-color: rgba(0,0,0,0.10); }
