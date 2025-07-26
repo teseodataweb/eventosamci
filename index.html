@@ -358,6 +358,11 @@
                       class="dtr-btn-flat btn-flat-blue dtr-mt-30"
                       >☕ Registrarme sin costo</a
                     >
+                    <a
+                    href="https://eventos.amciac.org/cursobombeo/"
+                    class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                    > Ver Curso de Bombeo</a
+                  >
                   </div>
                 </div>
                 <!-- event information ends -->
@@ -1297,7 +1302,16 @@ style="background-image: url(assets/images/fondoform.jpg)"
           formData.delete("courses[]");
           formData.append("courses", cursosSeleccionados);
     
-          // Enviar los datos
+          // 👉 Mostrar estado de carga
+          Swal.fire({
+            title: "Enviando...",
+            text: "Por favor espera mientras procesamos tu registro.",
+            allowOutsideClick: false,
+            didOpen: () => {
+              Swal.showLoading();
+            }
+          });
+    
           fetch(form.action, {
             method: "POST",
             body: formData,
@@ -1324,6 +1338,7 @@ style="background-image: url(assets/images/fondoform.jpg)"
         });
       });
     </script>
+    
     
     
       
