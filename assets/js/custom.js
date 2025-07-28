@@ -24,6 +24,8 @@ $(document).ready(function() {
 		animation: { opacity: 'show', height: 'show' },
 		speed: 300,      
 	});
+		
+
 	
 	// menudropdown auto align      
 	var wapoMainWindowWidth = $(window).width();
@@ -297,3 +299,20 @@ $(window).on('load', function(){
 	$('.dtr-preloader').delay(400).fadeOut(500);
 	
 }); // close on load
+const fondo = document.querySelector('.background-carousel');
+const imagenes = [
+  'assets/images/fondo1.jpg',
+  'assets/images/fondo3.jpg',
+  'assets/images/fondo2.jpg',
+  'assets/images/fondo4.jpg'
+];
+
+let index = 0;
+
+function cambiarFondo() {
+  fondo.style.backgroundImage = `url('${imagenes[index]}')`;
+  index = (index + 1) % imagenes.length;
+}
+
+cambiarFondo(); // primera imagen
+setInterval(cambiarFondo, 5000); // cada 5 segundos

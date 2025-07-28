@@ -120,6 +120,7 @@
               </div>
             </div>
             <!-- menu ends -->
+             
 
             <!-- header button starts -->
             <a
@@ -138,59 +139,45 @@
       <div id="dtr-main-content">
         <!-- hero section starts
 ================================================== -->
-        <section
-          id="home"
-          class="dtr-section dtr-hero-section-top-padding dtr-pb-100 parallax bg-light-blue"
-        >
-          <div class="container">
-            <!--== row starts ==-->
-            <div class="row">
-              <!-- column 1 starts -->
-              <div class="col-12 col-md-6">
-                <!-- Heading -->
+       <section id="home" class="dtr-section dtr-hero-section parallax bg-light-blue">
+          
+          <div class="background-carousel"></div>
+
+         
+          <div class="container h-100">
+            <div class="row h-100 align-items-center">
+              <!-- Columna 1: Texto -->
+              <div class="col-12 col-md-6 text-white">
                 <h1>
                   Los
-                  <span
-                    style="
-                      background-color: #4557e1;
-                      width: 100px;
-                      height: 50px;
-                      border-radius: 10px;
-                      padding: 0 10px;
-                    "
-                    >eventos</span
-                  >
+                  <span style="
+                    background-color: #4557e1;
+                    border-radius: 10px;
+                    padding: 0 10px;
+                  ">eventos</span>
                   que construyen <br />
-                  <span class="color-blue"
-                    >el futuro del concreto en México</span
-                  >
+                  <span class="color-blue">el futuro del concreto en México</span>
                 </h1>
 
-                <!-- Text -->
                 <p>
-                  Encuentros nacionales, talleres y desayunos diseñados para
-                  fortalecer y conectar con aliados estratégicos y compartir
-                  innovación real.
+                  Encuentros nacionales, talleres y desayunos diseñados para fortalecer y conectar con aliados estratégicos y compartir innovación real.
                 </p>
 
-                <!-- button -->
-                <a href="#events" class="dtr-btn dtr-btn-styled btn-red dtr-mt-10"
-                  >Consulta la agenda completa</a
-                >
+                <a href="#events" class="dtr-btn dtr-btn-styled btn-red dtr-mt-10">
+                  Consulta la agenda completa
+                </a>
               </div>
-              <!-- column 1 ends -->
 
-              <!-- column 2 starts -->
-              <div class="col-12 col-md-6 small-device-space d-flex align-items-center justify-content-center">
-                <img src="assets/images/hero-img.png" alt="image" style="width: 100%; height: auto; object-fit: contain;" />
-              </div>
-              <!-- column 2 ends -->
-            </div>
-            <!--== row ends ==-->
+              <!-- Columna 2: Imagen -->
+              
           </div>
+
+          <!-- Script del carrusel de fondo -->
+          <script src="assets/js/carousel.js"></script>
         </section>
-        <!-- hero section ends
-================================================== -->
+
+                <!-- hero section ends
+        ================================================== -->
 
         <!-- pricing section starts
 ================================================== -->
@@ -221,11 +208,14 @@
             role="tab"
             aria-controls="pricing-tab-2"
             aria-selected="false"
-            >Impulsando el <br />
-            futuro del concreto <br />
-            <span style="font-weight: bold;">Guadalajara, <br> 11 de septiembre</span>
-            </a
+            style="text-align: center;"
           >
+          
+            <span style="font-weight: bold; font-size: 1.4rem;">11 de Septiembre, <br> Guadalajara.</span>
+             <br>Impulsando el <br />
+            futuro del concreto <br />
+          </a>
+
           <!-- tab 2 link ends -->
 
           <!-- tab 2 link starts -->
@@ -237,8 +227,14 @@
             role="tab"
             aria-controls="pricing-tab-3"
             aria-selected="false"
-            >Reunión de <br> Concreteros <br><strong> <span>Zona Bajío, <br> 26 de Sep</span></strong></a
-          >
+            style="text-align: center;"
+            >
+            
+              <span style="font-weight: bold; font-size: 1.4rem;">26 de Septiembre. <br> Zona Bajío.</span>
+              <br>Reunión de <br />
+              Concreteros <br />
+            </a>
+
           <!-- tab 2 link ends -->
 
           <!-- tab 2 link starts -->
@@ -250,9 +246,89 @@
             role="tab"
             aria-controls="pricing-tab-4"
             aria-selected="false"
-            >Asamblea General <br />de Concreteros <br> <strong>CDMX, Octubre</strong></a
-          >
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">Octubre, <br> CDMX.</span>
+              <br>Asamblea General <br />
+              de Concreteros <br />
+            </a>
+            
           <!-- tab 2 link ends -->
+           <a
+            class="nav-link"
+            id="pricing-tab-5-tab"
+            data-toggle="pill"
+            href="#pricing-tab-5"
+            role="tab"
+            aria-controls="pricing-tab-5"
+            aria-selected="false"
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">11 de Septiembre, <br> Guadalajara.</span>
+              <br>Curso <br />
+              Bombeo Inteligente  <br />
+            </a>
+            <!-- tab 2 link ends -->
+           <a
+            class="nav-link"
+            id="pricing-tab-6-tab"
+            data-toggle="pill"
+            href="#pricing-tab-6"
+            role="tab"
+            aria-controls="pricing-tab-6"
+            aria-selected="false"
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">24 de Septiembre, <br> San Luis Potosí.</span>
+              <br>Curso <br />
+              Bombeo Inteligente  <br />
+            </a>
+
+            <!-- tab 2 link ends -->
+           <a
+            class="nav-link"
+            id="pricing-tab-7-tab"
+            data-toggle="pill"
+            href="#pricing-tab-7"
+            role="tab"
+            aria-controls="pricing-tab-7"
+            aria-selected="false"
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">22 de Octubre, <br> CDMX.</span>
+              <br>Curso <br />
+              Bombeo Inteligente  <br />
+            </a>
+            <!-- tab 2 link ends -->
+           <a
+            class="nav-link"
+            id="pricing-tab-8-tab"
+            data-toggle="pill"
+            href="#pricing-tab-8"
+            role="tab"
+            aria-controls="pricing-tab-8"
+            aria-selected="false"
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">22 de Octubre, <br> CDMX.</span>
+              <br>Curso de Control de Cálidad <br />
+              y Patologías del Concreto <br />
+            </a>
+            <!-- tab 2 link ends -->
+           <a
+            class="nav-link"
+            id="pricing-tab-9-tab"
+            data-toggle="pill"
+            href="#pricing-tab-9"
+            role="tab"
+            aria-controls="pricing-tab-9"
+            aria-selected="false"
+            style="text-align: center;"
+            >
+            <span style="font-weight: bold; font-size: 1.4rem;">3-7 de Marzo 2026, <br> Las Vegas</span>
+              <br>CONEXPO-CON/ <br />
+              AGG <br />
+            </a>
 
 
         </div>
@@ -327,29 +403,29 @@
                       <div class="col-4">
                         <h4>Actividades:</h4>
                         <ul>
-                          <li>
+                          <p>
                             Pláticas técnicas con especialistas invitados
-                          </li>
-                          <li>Demostraciones de producto o tecnología</li>
-                          <li>Sesión de networking</li>
-                          <li>Desayuno completo gratuito</li>
+                          </p>
+                          <p>Demostraciones de producto o tecnología</p>
+                          <p>Sesión de networking</p>
+                          <p>Desayuno completo gratuito</p>
                         </ul>
                       </div>
                       <div class="col-4">
                         <h4>Dirigido a:</h4>
                         <ul>
-                          <li>Dueños de planta</li>
-                          <li>Supervisores de calidad</li>
-                          <li>Aliados del sector</li>
+                          <p>Dueños de planta</p>
+                          <p>Supervisores de calidad</p>
+                          <p>Aliados del sector</p>
                         </ul>
                       </div>
                       <div class="col-4">
                         <h4>Costo:</h4>
                         <ul>
-                          <li>
+                          <p>
                             Evento sin costo, requiere registro previo
-                          </li>
-                          <li>Cupo limitado</li>
+                          </p>
+                          <p>Cupo limitado</p>
                         </ul>
                       </div>
                     </div>
@@ -438,29 +514,29 @@
                       <div class="col-4">
                         <h4>Actividades:</h4>
                         <ul>
-                          <li>
+                          <p>
                             Pláticas técnicas con especialistas invitados
-                          </li>
-                          <li>Demostraciones de producto o tecnología</li>
-                          <li>Sesión de networking</li>
-                          <li>Desayuno completo gratuito</li>
+                          </p>
+                          <p>Demostraciones de producto o tecnología</p>
+                          <p>Sesión de networking</p>
+                          <p>Desayuno completo gratuito</p>
                         </ul>
                       </div>
                       <div class="col-4">
                         <h4>Dirigido a:</h4>
                         <ul>
-                          <li>Dueños de planta</li>
-                          <li>Supervisores de calidad</li>
-                          <li>Aliados del sector</li>
+                          <p>Dueños de planta</p>
+                          <p>Supervisores de calidad</p>
+                          <p>Aliados del sector</p>
                         </ul>
                       </div>
                       <div class="col-4">
                         <h4>Costo:</h4>
                         <ul>
-                          <li>
+                          <p>
                             Evento sin costo, requiere registro previo
-                          </li>
-                          <li>Cupo limitado</li>
+                          </p>
+                          <p>Cupo limitado</p>
                         </ul>
                       </div>
                     </div>
@@ -649,20 +725,20 @@
                       <div class="col-6">
                         <h4>Actividades esperadas:</h4>
                         <ul>
-                          <li>Informe anual y presentación AMCI</li>
-                          <li>Conferencias magistrales</li>
-                          <li>Paneles sobre regulación e innovación</li>
-                          <li>Espacios comerciales y networking</li>
-                          <li>Cena de gala con música en vivo</li>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
                         </ul>
                       </div>
                       <div class="col-6">
                         <h4>Costos:</h4>
                         <ul>
-                          <li>Socio AMCI: $1,800</li>
-                          <li>Socio con habitación: $3,800</li>
-                          <li>No socio: $2,500</li>
-                          <li>No socio con habitación: $4,500</li>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
                         </ul>
                       </div>
                     </div>
@@ -680,6 +756,469 @@
             <!-- row ends -->
           </div>
           <!--== tab 4 content ends ==-->
+          <!--== tab 5 content starts ==-->
+          <div class="tab-pane fade" id="pricing-tab-5" role="tabpanel" aria-labelledby="pricing-tab-5-tab">
+
+            <!-- row starts -->
+            <div class="row">
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-12">
+                <!-- event information starts -->
+                <div class="dtr-pricing bg-white dtr-shadow">
+                  <h3 class="dtr-price color-blue">
+                    Curso Bombeo Inteligente – Guadalajara 2025
+                  </h3>
+                  <p>
+                    "".
+                  </p>
+                  <div class="event-details">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Fecha:</strong></h5>
+                            <p class="card-text">11 de Septiembre 2025 (tentativa)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Hora:</strong></h5>
+                            <p class="card-text">9:00 AM – 4:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Lugar:</strong></h5>
+                            <p class="card-text">Por confirmar</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                            <p class="card-text">Guadalajara</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--<h4>Objetivo:</h4>
+                    <p>
+                      Consolidar la comunidad nacional de concreteros
+                      independientes, presentar resultados del año y
+                      trazar líneas estratégicas de cara al 2026.
+                    </p>
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Actividades esperadas:</h4>
+                        <ul>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <h4>Costos:</h4>
+                        <ul>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
+                        </ul>
+                      </div>
+                    </div>-->
+                    <a
+                      href="#"
+                      class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <!-- event information ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!-- row ends -->
+          </div>
+          <!--== tab 5 content ends ==-->
+          <!--== tab 6 content starts ==-->
+          <div class="tab-pane fade" id="pricing-tab-6" role="tabpanel" aria-labelledby="pricing-tab-6-tab">
+
+            <!-- row starts -->
+            <div class="row">
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-12">
+                <!-- event information starts -->
+                <div class="dtr-pricing bg-white dtr-shadow">
+                  <h3 class="dtr-price color-blue">
+                    Curso Bombeo Inteligente – San Luis Potosí 2025
+                  </h3>
+                  <p>
+                    "".
+                  </p>
+                  <div class="event-details">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Fecha:</strong></h5>
+                            <p class="card-text">22 de Septiembre 2025 (tentativa)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Hora:</strong></h5>
+                            <p class="card-text">9:00 AM – 4:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Lugar:</strong></h5>
+                            <p class="card-text">Por confirmar</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                            <p class="card-text">San Luis Potosí</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--<h4>Objetivo:</h4>
+                    <p>
+                      Consolidar la comunidad nacional de concreteros
+                      independientes, presentar resultados del año y
+                      trazar líneas estratégicas de cara al 2026.
+                    </p>
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Actividades esperadas:</h4>
+                        <ul>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <h4>Costos:</h4>
+                        <ul>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
+                        </ul>
+                      </div>
+                    </div>-->
+                    <a
+                      href="#"
+                      class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <!-- event information ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!-- row ends -->
+          </div>
+          <!--== tab 6 content ends ==-->
+          <!--== tab 7 content starts ==-->
+          <div class="tab-pane fade" id="pricing-tab-7" role="tabpanel" aria-labelledby="pricing-tab-7-tab">
+
+            <!-- row starts -->
+            <div class="row">
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-12">
+                <!-- event information starts -->
+                <div class="dtr-pricing bg-white dtr-shadow">
+                  <h3 class="dtr-price color-blue">
+                    Curso de Bombeo Inteligente – CDMX 2025
+                  </h3>
+                  <p>
+                    "".
+                  </p>
+                  <div class="event-details">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Fecha:</strong></h5>
+                            <p class="card-text">22 de Octubre 2025 (tentativa)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Hora:</strong></h5>
+                            <p class="card-text">9:00 AM – 4:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Lugar:</strong></h5>
+                            <p class="card-text">Por confirmar</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                            <p class="card-text">Ciudad de México</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--<h4>Objetivo:</h4>
+                    <p>
+                      Consolidar la comunidad nacional de concreteros
+                      independientes, presentar resultados del año y
+                      trazar líneas estratégicas de cara al 2026.
+                    </p>
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Actividades esperadas:</h4>
+                        <ul>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <h4>Costos:</h4>
+                        <ul>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
+                        </ul>
+                      </div>
+                    </div>-->
+                    <a
+                      href="#"
+                      class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <!-- event information ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!-- row ends -->
+          </div>
+          <!--== tab 7 content ends ==-->
+          <!--== tab 8 content starts ==-->
+          <div class="tab-pane fade" id="pricing-tab-8" role="tabpanel" aria-labelledby="pricing-tab-8-tab">
+
+            <!-- row starts -->
+            <div class="row">
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-12">
+                <!-- event information starts -->
+                <div class="dtr-pricing bg-white dtr-shadow">
+                  <h3 class="dtr-price color-blue">
+                    Curso de Control de Cálidad y Patologías del Concreto – CDMX 2025
+                  </h3>
+                  <p>
+                    "".
+                  </p>
+                  <div class="event-details">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Fecha:</strong></h5>
+                            <p class="card-text">22 de Octubre 2025 (tentativa)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Hora:</strong></h5>
+                            <p class="card-text">10:00 AM – 2:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Lugar:</strong></h5>
+                            <p class="card-text">Por confirmar</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                            <p class="card-text">Ciudad de México</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--<h4>Objetivo:</h4>
+                    <p>
+                      Consolidar la comunidad nacional de concreteros
+                      independientes, presentar resultados del año y
+                      trazar líneas estratégicas de cara al 2026.
+                    </p>
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Actividades esperadas:</h4>
+                        <ul>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <h4>Costos:</h4>
+                        <ul>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
+                        </ul>
+                      </div>
+                    </div>-->
+                    <a
+                      href="#"
+                      class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <!-- event information ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!-- row ends -->
+          </div>
+          <!--== tab 8 content ends ==-->
+          <!--== tab 9 content starts ==-->
+          <div class="tab-pane fade" id="pricing-tab-9" role="tabpanel" aria-labelledby="pricing-tab-9-tab">
+
+            <!-- row starts -->
+            <div class="row">
+              <!-- column 2 starts -->
+              <div class="col-12 col-md-12">
+                <!-- event information starts -->
+                <div class="dtr-pricing bg-white dtr-shadow">
+                  <h3 class="dtr-price color-blue">
+                    CONEXPO-CON/AGG es la feria comercial de la construcción. – Las Vegas 2025
+                  </h3>
+                  <p>
+                    "".
+                  </p>
+                  <div class="event-details">
+                    <div class="row">
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Fecha:</strong></h5>
+                            <p class="card-text">3-7 de Marzo 2026 (tentativa)</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Martes a Viernes, Hora:</strong></h5>
+                            <p class="card-text">9:00 AM – 5:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                       <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Sábado, Hora:</strong></h5>
+                            <p class="card-text">9:00 AM – 3:00 PM</p>
+                          </div>
+                        </div>
+                      </div>
+                      <!--<div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Lugar:</strong></h5>
+                            <p class="card-text">Por confirmar</p>
+                          </div>
+                        </div>
+                      </div>-->
+                      <div class="col-md-3">
+                        <div class="card h-100">
+                          <div class="card-body">
+                            <h5 class="card-title"><strong>Ciudad:</strong></h5>
+                            <p class="card-text">Las Vegas</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <!--<h4>Objetivo:</h4>
+                    <p>
+                      Consolidar la comunidad nacional de concreteros
+                      independientes, presentar resultados del año y
+                      trazar líneas estratégicas de cara al 2026.
+                    </p>
+                    <div class="row">
+                      <div class="col-6">
+                        <h4>Actividades esperadas:</h4>
+                        <ul>
+                          <p>Informe anual y presentación AMCI</p>
+                          <p>Conferencias magistrales</p>
+                          <p>Paneles sobre regulación e innovación</p>
+                          <p>Espacios comerciales y networking</p>
+                          <p>Cena de gala con música en vivo</p>
+                        </ul>
+                      </div>
+                      <div class="col-6">
+                        <h4>Costos:</h4>
+                        <ul>
+                          <p>Socio AMCI: $1,800</p>
+                          <p>Socio con habitación: $3,800</p>
+                          <p>No socio: $2,500</p>
+                          <p>No socio con habitación: $4,500</p>
+                        </ul>
+                      </div>
+                    </div>-->
+                    <a
+                      href="#"
+                      class="dtr-btn-flat btn-flat-blue dtr-mt-30"
+                      >Ver más</a
+                    >
+                  </div>
+                </div>
+                <!-- event information ends -->
+              </div>
+              <!-- column 2 ends -->
+            </div>
+            <!-- row ends -->
+          </div>
+          <!--== tab 9 content ends ==-->
           
         </div>
       </div>
@@ -788,7 +1327,7 @@ style="background-image: url(assets/images/fondoform.jpg)"
                 <label><input type="checkbox" name="courses[]" value="Cursos Técnicos MAPEI-AMCI" /> Cursos Técnicos MAPEI-AMCI</label>
                 <label><input type="checkbox" name="courses[]" value="Guadalajara 11 de Septiembre" /> Guadalajara 11 de Septiembre</label>
                 <label><input type="checkbox" name="courses[]" value="Reunión de Concreteros" /> Reunión de Concreteros - 26 de Sep</label>
-                <label><input type="checkbox" name="courses[]" value="Asamblea CDMX" /> Asamble CDMX</label>
+                <label><input type="checkbox" name="courses[]" value="Asamblea CDMX" /> Asamblea CDMX</label>
 
 
 
