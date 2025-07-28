@@ -860,5 +860,30 @@ opacity:0
 #home p {
   color: white;
 }
+.evento-card {
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  padding: 20px;
+  width: 100%;
+  height: 200px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;     
+  text-decoration: none;
+  background-color: transparent;
+  box-shadow: 0 2px 8px rgba(79, 79, 118, 0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  color: #4557e1;
+}
 
+.evento-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 16px rgba(57, 57, 57, 0.4); 
+}
 
+.evento-lugar {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #222772;
+}
