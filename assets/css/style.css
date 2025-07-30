@@ -887,3 +887,46 @@ opacity:0
   font-weight: 500;
   color: #222772;
 }
+
+
+/* Patrocinadores */
+.carousel-wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.carousel-track {
+  display: flex;
+  animation: scroll-left 30s linear infinite;
+}
+
+.logo {
+  flex: 0 0 auto;
+  width: 33.33%; /* mobile: 3 logos */
+  padding: 15px;
+  box-sizing: border-box;
+}
+
+.logo img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Desktop: 6 logos visibles */
+@media (min-width: 768px) {
+  .logo {
+    width: 16.66%; /* 6 logos visibles */
+  }
+}
+
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
